@@ -1,0 +1,8 @@
+﻿  main.c
+C:\Users\jimin\source\repos\6_tetris\main.c(4,6): warning C4013: 'init'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\jimin\source\repos\6_tetris\main.c(6,12): warning C4013: 'titleDraw'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\jimin\source\repos\6_tetris\main.c(7,26): warning C4013: 'menuDraw'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\jimin\source\repos\6_tetris\main.c(9,23): warning C4013: 'maplistDraw'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\jimin\source\repos\6_tetris\main.c(12,10): warning C4013: 'gLoop'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\jimin\source\repos\6_tetris\main.c(23,12): warning C4013: 'infoDraw'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  6_tetris.vcxproj -> C:\Users\jimin\source\repos\6_tetris\Debug\6_tetris.exe

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="game_base">
+      <UniqueIdentifier>{4146793a-fde4-409a-87b9-21a867345c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game1">
+      <UniqueIdentifier>{23fbc20a-c91c-48b3-8591-1473f40a33c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game2">
+      <UniqueIdentifier>{aaae2c0c-e0b5-4e49-b718-78c8d9f3b0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game3">
+      <UniqueIdentifier>{b449ea18-a6a8-488e-867c-059a452e57b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game2\헤더 파일">
+      <UniqueIdentifier>{de400b08-13b8-4aef-bcfa-68b2ab848fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game3\헤더 파일">
+      <UniqueIdentifier>{133a2679-d321-42d1-a45c-28bf5d2546d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game1\헤더 파일">
+      <UniqueIdentifier>{91ea0001-bc12-4e89-ae5b-01269530b0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game1\소스 파일">
+      <UniqueIdentifier>{bcc692a4-03af-487e-a1c0-093d59666623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game2\소스 파일">
+      <UniqueIdentifier>{300f34a6-8226-48f2-93fb-a6a51660d82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game3\소스 파일">
+      <UniqueIdentifier>{3164c3f0-6d71-43c8-bde9-d452d9843fbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gamebase.c">
+      <Filter>game_base</Filter>
+    </ClCompile>
+    <ClCompile Include="game1.c">
+      <Filter>game1\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game2.c">
+      <Filter>game2\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game3.c">
+      <Filter>game3\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game1main.c">
+      <Filter>game1\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game2main.c">
+      <Filter>game2\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game3main.c">
+      <Filter>game3\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gamebase.h">
+      <Filter>game_base</Filter>
+    </ClInclude>
+    <ClInclude Include="game1.h">
+      <Filter>game1\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game2.h">
+      <Filter>game2\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game3.h">
+      <Filter>game3\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
